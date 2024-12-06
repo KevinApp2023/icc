@@ -1,0 +1,9 @@
+
+RewriteEngine On
+RewriteRule ^$ /inicio [L,R=301]
+RewriteRule ^inicio$ /src/pg_1.php?page=Inicio [L,QSA]
+RewriteRule ^nosotros$ /src/pg_2.php?page=Nosotros [L,QSA]
+RewriteRule ^predicas$ /src/pg_3.php?page=Predicas [L,QSA]
+RewriteRule ^anuncios$ /src/pg_4.php?page=Anuncios [L,QSA]
+RewriteRule ^servicios$ /src/pg_5.php?page=Servicios [L,QSA]
+RewriteRule ^contactos$ /src/pg_6.php?page=Contactos [L,QSA]

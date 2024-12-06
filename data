@@ -1,0 +1,52 @@
+
+
+
+<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+
+
+
+  <?php
+
+$sql_banner_img_inicio = "SELECT * FROM banner_img WHERE pagina = 'sobre_nosotros'";
+$resultado_banner_img_inicio = $conex->query($sql_banner_img_inicio);
+
+if ($resultado_banner_img_inicio->num_rows > 0) {
+  $isActive = true; 
+  while ($data_banner_img_inicio = $resultado_banner_img_inicio->fetch_assoc()) {  ?>
+
+    <div class="carousel-item <?php echo $isActive ? 'active' : ''; ?>">
+      <div class="banner_img_nos position-relative">
+        <img src="<?php echo $data_banner_img_inicio['img']; ?>" class="d-block w-100" alt="...">
+       
+        <div class="overlay">
+          <h1 class="text-center cpa"><?php echo $data_banner_img_inicio['texto_1']; ?></h1>
+          <p class="text-center cpa"><?php echo $data_banner_img_inicio['texto_2']; ?></p>
+        </div>
+      </div>
+    </div>
+
+  <?php 
+    $isActive = false; 
+  }
+}
+?>
+
+
+    </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+
+
+  </div>
+
+
+
+
+

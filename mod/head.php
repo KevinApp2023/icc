@@ -7,7 +7,7 @@
     <title><?php echo $_GET['page']; ?> | ICC La Presencia de Dios a las Naciones </title>
     <meta name="keywords" content="">
     <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author" content="Centro Digital GoodMax">
     <link rel="shortcut icon" href="" type="image/x-icon" />
     <link rel="apple-touch-icon" href="" />
 

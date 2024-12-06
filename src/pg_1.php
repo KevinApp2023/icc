@@ -5,10 +5,7 @@
 <body id="home" data-spy="scroll" data-target="#navbar-wd" data-offset="98">
 <?php include("../mod/header.php"); ?>
 
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-                 
+             
 
                   
                     

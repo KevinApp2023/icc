@@ -7,7 +7,7 @@
 		
 		   <div class="row">
 		   
-		      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+		      <div class="col-xs-12 col-sm-6 col-md-6 col-lg">
 			     <div class="footer_blog">
 				    <div class="full margin-bottom_30">
 					   <img src="/images/footer_logo.png" alt="#" />
@@ -19,33 +19,23 @@
 				 </div>
 			  </div>
 			  
-			  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+			  <div class="col-xs-12 col-sm-6 col-md-6 col-lg">
 			       <div class="footer_blog footer_menu white_fonts">
-						    <h3>Quick links</h3>
+						    <h3>Enlaces rápidos</h3>
 						    <ul> 
-							  <li><a href="#">> Join Us</a></li>
-							  <li><a href="#">> Maintenance</a></li>
-							  <li><a href="#">> Language Packs</a></li>
-							  <li><a href="#">> LearnPress</a></li>
-							  <li><a href="#">> Release Status</a></li>
+							  <li><a href="inicio">> Inicio</a></li>
+							  <li><a href="nosotros">> Nosotros</a></li>
+							  <li><a href="predicas">> Predicas</a></li>
+							  <li><a href="anuncios">> Anuncios</a></li>
+							  <li><a href="servicios">> Servicios</a></li>
+							  <li><a href="contactos">> Contactos</a></li>
 							</ul>
 						 </div>
 				 </div>
 				 
-				 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-				 <div class="footer_blog full white_fonts">
-						     <h3>Newsletter</h3>
-							 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
-							 <div class="newsletter_form">
-							    <form action="index.html">
-								   <input type="email" placeholder="Your Email" name="#" required />
-								   <button>Submit</button>
-								</form>
-							 </div>
-						 </div>
-					</div>	 
+			
 			  
-			  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+			  <div class="col-xs-12 col-sm-6 col-md-6 col-lg">
 				 <div class="footer_blog full white_fonts">
 						     <h3>Contact us</h3>
 							 <ul class="full">

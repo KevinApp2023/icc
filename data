@@ -1,6 +1,7 @@
 
 
 
+
 <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
 
@@ -68,6 +69,64 @@ cpaElements.forEach(element => observer.observe(element));
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Estilo para la imagen en general */
+.carousel-item .banner_img_nos img {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+
+/* Estilo para el fondo negro semitransparente */
+.carousel-item .banner_img_nos .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white; /* Letras blancas */
+  text-align: center;
+  z-index: 1;
+}
+
+/* Asegura que las imágenes no cubran el texto */
+.carousel-item .banner_img_nos {
+  position: relative;
+}
+
+/* Estilos responsivos para móvil */
+@media (max-width: 768px) {
+  .carousel-item .banner_img_nos {
+    overflow: hidden;
+    height: 50vh;
+  }
+
+  .carousel-item .banner_img_nos img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+  .carousel-item .banner_img_nos .overlay {
+    padding: 10px; /* Espaciado en móviles */
+  }
+}
 
 
 

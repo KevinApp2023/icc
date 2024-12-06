@@ -50,3 +50,26 @@ if ($resultado_banner_img_inicio->num_rows > 0) {
 
 
 
+
+
+
+
+const cpaElements = document.querySelectorAll('.cpa');
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('show');
+        } else {
+            entry.target.classList.remove('show'); 
+        }
+    });
+}, { threshold: 0.2 }); 
+cpaElements.forEach(element => observer.observe(element));
+
+
+
+
+
+
+
+
